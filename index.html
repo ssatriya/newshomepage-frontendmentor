@@ -20,7 +20,7 @@
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <nav class="nav">
         <img class="logo" src="./assets/images/logo.svg" alt="W. Logo" />
         <div class="site__nav">
@@ -40,14 +40,24 @@
             <span></span>
             <span></span>
             <span></span>
+            <ul class="mobile__nav">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">New</a>
+              </li>
+              <li>
+                <a href="#">Popular</a>
+              </li>
+              <li>
+                <a href="#">Trending</a>
+              </li>
+              <li>
+                <a href="#">Categories</a>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="mobile__nav">
-          <a href="#">Home</a>
-          <a href="#">New</a>
-          <a href="#">Popular</a>
-          <a href="#">Trending</a>
-          <a href="#">Categories</a>
         </div>
       </nav>
 
@@ -102,14 +112,19 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="articles">
+
         <div class="article__container">
-          <img class="article__img" src="./assets/images/image-retro-pcs.jpg" />
+          <img
+            class="article__img"
+            src="./assets/images/image-retro-pcs.jpg"
+            alt="Image of Retro PC"
+          />
           <div class="articles__meta">
             <div class="big__numbers">01</div>
             <div class="article__title">
-              <a href="#">Reviving Retro PCs</a>
+              <h2>
+                <a href="#">Reviving Retro PCs</a>
+              </h2>
             </div>
             <p class="article__excerpt">
               What happens when old PCs are given modern upgrade?
@@ -120,11 +135,14 @@
           <img
             class="article__img"
             src="./assets/images/image-top-laptops.jpg"
+            alt="Image of Top Laptops"
           />
           <div class="articles__meta">
             <div class="big__numbers">02</div>
             <div class="article__title">
-              <a href="#">Top 10 Laptops of 2022</a>
+              <h2>
+                <a href="#">Top 10 Laptops of 2022</a>
+              </h2>
             </div>
             <p class="article__excerpt">
               Our best picks for various needs and budgets.
@@ -135,11 +153,14 @@
           <img
             class="article__img"
             src="./assets/images/image-gaming-growth.jpg"
+            alt="Image of Growth in Gaming"
           />
           <div class="articles__meta">
             <div class="big__numbers">03</div>
             <div class="article__title">
-              <a href="#">The Growth of Gaming</a>
+              <h2>
+                <a href="#">The Growth of Gaming</a>
+              </h2>
             </div>
             <p class="article__excerpt">
               How the pandemic has sparked fresh opportunities.
@@ -147,7 +168,7 @@
           </div>
         </div>
       </section>
-    </div>
+    </main>
 
     <footer>
       <div class="attribution">
